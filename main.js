@@ -49,6 +49,10 @@ function gotPoses(results){
   }
 }
 
+function startGame() { 
+  game_status = "start"; 
+  document.getElementById("status").innerHTML = "Game Is Loaded"; 
+}
 
 function draw(){
 
